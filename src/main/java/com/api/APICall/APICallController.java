@@ -15,6 +15,7 @@ public class APICallController {
     @Autowired
     private DataRepository repository;
 
+    @RateLimited
     @GetMapping("/getdata")
     public String getData() {
         Data data = new Data();

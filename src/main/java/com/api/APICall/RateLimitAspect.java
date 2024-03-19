@@ -1,4 +1,4 @@
-package com.api.ThirdPartyApiCallerApplication;
+package com.api.APICall;
 
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
